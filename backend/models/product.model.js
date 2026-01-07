@@ -20,5 +20,5 @@ const productSchema = new mongoose.Schema(
   }
 );
 
-const Product = mongoose.model("Product", productSchema);
+const Product = mongoose.model("Product", productSchema,"mern-store");
 export default Product;
